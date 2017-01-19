@@ -1,0 +1,137 @@
+#container
+{
+    width: 395px;
+    height: 545px;
+    margin: 0 auto;
+
+    background: white;
+}
+#head
+{
+    width: 395px;
+    height: 120px;
+    margin: 30px 0;
+
+    background: white;
+}
+#title
+{
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 120px;
+
+    float: left;
+
+    width: 120px;
+    height: 120px;
+    margin: 0 0 0 50px;
+
+    text-align: center;
+
+    color: white;
+    border-radius: 5px;
+    background: #daa520;
+}
+#score
+{
+    float: left;
+
+    width: 120px;
+    height: 60px;
+    margin: 0 0 0 60px;
+
+    border-radius: 5px;
+    background: #bbada0;
+}
+#nameScore
+{
+    font-size: 20px;
+    line-height: 15px;
+
+    margin: 10px;
+
+    text-align: center;
+
+    color: white;
+}
+#numberScore
+{
+    font-size: 18px;
+    line-height: 15px;
+
+    margin: 10px;
+
+    text-align: center;
+
+    color: white;
+}
+#btnNewGame
+{
+    font-size: 20px;
+    line-height: 40px;
+
+    float: left;
+
+    width: 120px;
+    height: 40px;
+    margin: 20px 0 0 60px;
+
+    text-align: center;
+    text-decoration: none;
+
+    color: white;
+    border-radius: 5px;
+    background: orange;
+}
+
+#btnNewGame:hover
+{
+    background: #9f8b77;
+}
+
+#btnNewGame:active
+{
+    color: red;
+}
+
+#grid
+{
+    position: relative;
+
+    width: 395px;
+    height: 395px;
+    margin: 0;
+
+    border-radius: 10px;
+    background: #bbada0;
+}
+.grid-cell
+{
+    float: left;
+
+    width: 80px;
+    height: 80px;
+    margin: 15px 0 0 15px;
+
+    border-radius: 5px;
+    background: #ccc0b3;
+}
+
+.number-cell
+{
+    font-family: Arial;
+/*    font-size: 40px;*/
+    font-weight: bold;
+    line-height: 80px;
+
+    position: absolute;
+
+    width: 80px;
+    height: 80px;
+    margin: 0;
+
+    text-align: center;
+
+    border-radius: 5px;
+    background: red;
+}
